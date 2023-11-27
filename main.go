@@ -1,15 +1,7 @@
 package main
 
-import (
-	"fmt"
-
-	"spirithy.com/leetcode/lc0003"
-)
+import "spirithy.com/leetcode/lc0206"
 
 func main() {
-	var s string
-
-	fmt.Scanln(&s)
-
-	fmt.Println(lc0003.Target(s))
+	lc0206.Target()
 }
