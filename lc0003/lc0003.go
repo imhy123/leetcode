@@ -1,5 +1,7 @@
 package lc0003
 
+var Target = lengthOfLongestSubstring
+
 func lengthOfLongestSubstring(s string) int {
 	var length = len(s)
 
@@ -45,5 +47,3 @@ func lengthOfLongestSubstring(s string) int {
 
 	return ret
 }
-
-var Target = lengthOfLongestSubstring
