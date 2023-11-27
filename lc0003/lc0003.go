@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package lc0003
 
 func lengthOfLongestSubstring(s string) int {
 	var length = len(s)
@@ -50,10 +46,4 @@ func lengthOfLongestSubstring(s string) int {
 	return ret
 }
 
-func main() {
-	var s string
-
-	fmt.Scanln(&s)
-
-	fmt.Println(lengthOfLongestSubstring(s))
-}
+var Target = lengthOfLongestSubstring
